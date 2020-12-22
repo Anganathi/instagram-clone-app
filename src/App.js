@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import logo from "./images/logo.svg";
 import Post from "./Post.js";
@@ -209,11 +209,11 @@ function App() {
         </div>
       </div>
 
-      {/* {user?.displayName ? (
+      {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ) : (
         <h3>You need to login to upload </h3>
-      )} */}
+      )}
     </div>
   );
 }

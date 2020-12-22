@@ -6,10 +6,10 @@
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    /* background-color: white;
-    border-top: 1px solid lightgray; */
+    background-color: white;
+    height: 8%;
 }
 
 .imageupload__progress{

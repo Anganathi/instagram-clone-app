@@ -47,7 +47,7 @@ function ImageUpload({ username }) {
             });
             setImage(null);
             setProgress(0);
-            setCaption("");
+            setCaption('');
           });
       }
     );
